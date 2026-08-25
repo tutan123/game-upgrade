@@ -1,0 +1,50 @@
+using System;
+
+namespace FrameWork;
+
+public class TimeData
+{
+	private bool _isInterval;
+
+	private float _cd;
+
+	private float _curCd;
+
+	private float _time;
+
+	private Action _action;
+
+	public void Init(bool isInterval, float cd, float time, Action action)
+	{
+		_isInterval = isInterval;
+		_cd = cd;
+		_curCd = cd;
+		_time = time;
+		_action = action;
+	}
+
+	public void Update(float deltaTime)
+	{
+		_curCd -= deltaTime;
+		if (_curCd <= 0f)
+		{
+			_action?.Invoke();
+			if (_isInterval)
+			{
+				_curCd = _cd;
+			}
+			else
+			{
+				Timer.DestroyTimer(this);
+			}
+		}
+		if (_time != -1f)
+		{
+			_time -= deltaTime;
+			if (_time <= 0f)
+			{
+				Timer.DestroyTimer(this);
+			}
+		}
+	}
+}

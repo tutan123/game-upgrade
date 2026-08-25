@@ -1,0 +1,114 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="XNode">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\XNode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="AVProVideo.Runtime">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\AVProVideo.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="com.rlabrecque.steamworks.net">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\com.rlabrecque.steamworks.net.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="VacuumShaders.TerrainToMesh">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\VacuumShaders.TerrainToMesh.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\Sirenix.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="AVProVideo.Extensions.UnityUI">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\AVProVideo.Extensions.UnityUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="ZFBrowser">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\ZFBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\Unity.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

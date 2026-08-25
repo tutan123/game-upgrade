@@ -1,0 +1,14 @@
+# ignore OS / editor clutter
+Thumbs.db
+Desktop.ini
+.vs/
+.vscode/
+*.user
+
+# if any of the huge local artifacts ever get copied in, keep them out
+*.bundle
+*.mp4
+*.mp3
+*.assets
+*.assets.resS
+*.resource

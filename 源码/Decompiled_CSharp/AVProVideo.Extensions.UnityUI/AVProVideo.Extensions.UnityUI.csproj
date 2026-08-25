@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>AVProVideo.Extensions.UnityUI</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="AVProVideo.Runtime">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\AVProVideo.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

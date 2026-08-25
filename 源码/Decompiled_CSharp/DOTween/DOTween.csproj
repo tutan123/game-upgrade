@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>DOTween</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net35</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

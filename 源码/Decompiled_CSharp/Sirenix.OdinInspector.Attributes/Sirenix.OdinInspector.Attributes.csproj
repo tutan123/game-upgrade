@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Sirenix.OdinInspector.Attributes</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net471</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\重生2我独自逆袭Demo\重生2我独自逆袭_BackUpThisFolder_ButDontShipItWithYourGame\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>
